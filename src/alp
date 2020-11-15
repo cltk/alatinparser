@@ -1,0 +1,125 @@
+ALP, a data-driven feature-unification parser for a micro-subset of classical Latin
+-----------------------------------------------------------------------------------
+
+A.Michiels, amichiels@uliege.be
+
+
+
+Current settings are: DEFAULT. Modify ? (y/n) n
+
+Input file?  [stdin. or file_name.] --> n
+.
+[31;1m
+ERROR: source_sink `n' does not exist (No such file or directory)
+ERROR: In:
+ERROR:   [10] open(n,read,_1012)
+ERROR:    [8] go at /home/jds/devworld/alatinparser/src/alp.pro:96
+ERROR:    [7] <user>
+ERROR: 
+ERROR: Note: some frames are missing due to last-call optimization.
+ERROR: Re-run your program in debug mode (:- debug.) to get more detail.
+[0m
+go.
+
+
+
+ALP, a data-driven feature-unification parser for a micro-subset of classical Latin
+-----------------------------------------------------------------------------------
+
+A.Michiels, amichiels@uliege.be
+
+
+
+Current settings are: DEFAULT. Modify ? (y/n) n
+
+Input file?  [stdin. or file_name.] --> tn
+test
+.
+[31;1m
+ERROR: Stream user_input:43:43 Syntax error: Operator expected
+[0m
+go
+.
+
+
+
+ALP, a data-driven feature-unification parser for a micro-subset of classical Latin
+-----------------------------------------------------------------------------------
+
+A.Michiels, amichiels@uliege.be
+
+
+
+Current settings are: DEFAULT. Modify ? (y/n) n
+
+Input file?  [stdin. or file_name.] --> stdin.
+Output file? [file_name.] --> 
+
+.
+[31;1m
+ERROR: Stream user_input:62:1 Syntax error: Unexpected end of clause
+[0m
+
+[32m% halt
+[0mALP, a data-driven feature-unification parser for a micro-subset of classical Latin
+-----------------------------------------------------------------------------------
+
+A.Michiels, amichiels@uliege.be
+
+
+
+Current settings are: DEFAULT. Modify ? (y/n) n
+
+Input file?  [stdin. or file_name.] --> 
+stdin.
+Output file? [file_name.] --> 
+test.
+
+
+Key in your sentence or stop. to quit
+
+Facta est lux.
+[0/facta,1/est,2/lux,endpos(3)]
+cputime : 0.12606675099999975
+
+6--->
+[illocutionary_force:statement,vg:[selected_reading:facio_make,polarity:pos,cat:vg,type:finite,pathlist:[p(0,1),p(1,2)],hp:[p(0,1)],lex:facere,person:3,mood:indicative,tense:perfect,voice:pass,number:sing,gender:fem,w:5],subject:[number:sing,gender:fem,pathlist:[p(2,3)],hp:[p(2,3)],index:i(p(2,3)),distance:[0],cat:np,sem:[thing],class:common,lextype:full,person:3,type:core,lex:lux,txt:lux,case:nom,w:1]]
+
+    illocutionary_force:statement
+    vg
+        selected_reading:facio_make
+        polarity:pos
+        cat:vg
+        lex:facere
+        person:3
+        mood:indicative
+        tense:perfect
+        voice:pass
+        number:sing
+        gender:fem
+    subject
+        number:sing
+        gender:fem
+        index:i(p(2,3))
+        cat:np
+        sem:[thing]
+        person:3
+        lex:lux
+        case:nom
+
+
+
+
+
+Key in your sentence or stop. to quit
+
+
+[endpos(0)]
+cputime : 0.002791806999999924
+
+
+Key in your sentence or stop. to quit
+stop.
+[0/stop,endpos(1)]
+
+TOTAL TIME : 0.12885855799999968

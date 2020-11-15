@@ -1,0 +1,40 @@
+Settings: [texttype,1] [number_of_parses,1] [depth,1] [type_of_structures,1] [current,DEFAULT] 
+
+
+[0/facta,1/est,2/lux,endpos(3)]
+cputime : 0.12606675099999975
+
+6--->
+[illocutionary_force:statement,vg:[selected_reading:facio_make,polarity:pos,cat:vg,type:finite,pathlist:[p(0,1),p(1,2)],hp:[p(0,1)],lex:facere,person:3,mood:indicative,tense:perfect,voice:pass,number:sing,gender:fem,w:5],subject:[number:sing,gender:fem,pathlist:[p(2,3)],hp:[p(2,3)],index:i(p(2,3)),distance:[0],cat:np,sem:[thing],class:common,lextype:full,person:3,type:core,lex:lux,txt:lux,case:nom,w:1]]
+
+    illocutionary_force:statement
+    vg
+        selected_reading:facio_make
+        polarity:pos
+        cat:vg
+        lex:facere
+        person:3
+        mood:indicative
+        tense:perfect
+        voice:pass
+        number:sing
+        gender:fem
+    subject
+        number:sing
+        gender:fem
+        index:i(p(2,3))
+        cat:np
+        sem:[thing]
+        person:3
+        lex:lux
+        case:nom
+
+
+
+
+[endpos(0)]
+cputime : 0.002791806999999924
+
+[0/stop,endpos(1)]
+
+TOTAL TIME : 0.12885855799999968

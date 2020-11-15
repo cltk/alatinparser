@@ -1,0 +1,230 @@
+% TEST SENTENCES FOR **ALP** - a parser for a micro-subset of classical Latin syntax.
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%.
+%.
+% Archibald Michiels.
+%.
+% 1.
+Insanis.
+% one-word sentence with context-retrievable subject
+% 2.
+Insaniuerunt praetores imperatoresque.
+% treatment of conjunction - dealing with enclitic -que
+% 3.
+Habent sua fata libelli.
+% Credits to Terentianus Maurus - word order
+% 4.
+Nil pensi neque sancti habebant milites.
+% Multi-word unit with frozen internal make-up
+% 5.
+Nauta rationes puellae pulchrae in dubium uocat.
+% Multi-word unit - straining factor computed on genitive phrase
+% 6.
+Marcus dixit regi magno salutem longam.
+% MWU with open structure
+% 7.
+Ancilla dat puero pulchro nuces pecuniamque magnam.
+% Conjunction
+% 8.
+Mali servi legerunt reginae epistulas.
+% Straining factor
+% 9 and 10.
+Mala ancilla misit reginae epistulas.
+Mala ancilla misit regi reginae epistulas.
+% Arg saturation
+% 11 and 12.
+Marco donat ciuitas immortalitatem.
+Marcum donat ciuitas immortalitate.
+% alternation in arg structure
+% 13.
+% credits to Tacitus.
+Dedimus profecto grande documentum patientiae.
+% 14.
+Dicunt militibus malis aqua et igni praetorem interdixisse.
+% MWU - infinitive clause
+% 15. 
+Vincere scis.
+% Credits to Livy - infinitive as arg (as opposed to 'scis te vicisse'
+% with full clause)
+% 16. 
+Dixit rex reginam librum pulchrum misisse Marco.
+% infinitive - semantic guidance on subject
+% 17.
+Ancilla dicit reginam patulae sub tegmine fagi recubauisse.
+% Credits to Vergilius - straining 
+% 18.   
+Putabas nautam puellae pulchrae pecuniam magnam dedisse.
+% preference for arg saturation
+% 19.
+Regina putat regem epistulas longas ad ancillam misisse.
+% arg alternation with mitto, semantic constraint
+% 20.
+Rex sciebat se epistulam reginae legisse.
+% Se as subject in subordinate indexed to subject in main clause
+% 21.
+Praetor non amabat milites nec faciebat pili cohortem.
+% credits to Catullus - MWU - polarity clause constraint
+% 22.
+Praetor cui scio Marcum libellum impudicum dedisse amat servas.
+% relative clause with relevant gap indexation
+% 23.
+Rex quem putas reginam amare amat ancillam reginae.
+% double role of accusative in infinitive clause
+% 24.
+Putabam ancillam pueros grammaticam docere.
+% double acc with doceo - semantic control
+% 25, 26 and 27. 
+Reges quos vult perdere dementat.
+Quos vult perdere dementat.
+Quos vult perdere.
+% relative with antecedent
+% relative with antecedent included in relative
+% 'relatif de liaison'
+% 28 and 29.
+Caesar mittit legiones legato ad urbem capiendam.
+Caesar mittit legiones legato urbis capiendae causa.
+% Gerundivum / Gerundium
+% recognition of the predicate-object link
+% 30,31,32,33.
+Mihi est opus patientia Marci.
+Mihi sunt opera patientiae.
+Caesari erat urbs capienda.
+Est militum bonorum capere urbes.
+% Various SUM-constructions with their own semantic make-up
+% 34 and 35.
+Urbe ab imperatore capta misit Caesar epistulam ad legatum.
+Rege sub tegmine fagi recubante scribit regina epistulas ad servum Marci.
+% Ablative absolutes of restricted types: object arg + pp, 
+%                                         subject arg + present participle 
+% 36, 37 and 38.
+Si rex amasset servas, scripsisset libellos impudicos.
+Rex, si amasset servas, scripsisset libellos impudicos.
+Rex scripsisset libellos impudicos, si amauisset servas.
+% subordinate clauses with semantic import of the main clause-subordinate clause nexus
+%.
+% Some more:
+% 39.
+Eo Romam.
+% 40.
+Eo auxilium rogatum.
+% 41.
+Itum est in templum.
+% 42.
+Sequuntur caedes.
+% 43.
+Tacebant omnes senatores.
+% 44.
+Timeo ne veniant.
+% 45.
+Vixerunt.
+% 46.
+Vixit vitam longam beatamque.
+% 47.
+Romani cum Germanis pugnavere.
+% 48.
+Rem age.
+% 49.
+Rex dona ab hostibus accepit.
+% 50.
+Karthago delenda est.
+% 51.
+Imperator legiones ad proelium duxit.
+% 52.
+Timeo Danaos etiam dona ferentes.
+% 53.
+De re refertur.
+% 54.
+Caesari erat eundum Romam ad senatores hortandos.
+% 55 'dubitare quin' in Non-affirmative Contexts (from Cicero). 
+Quis igitur dubitet quin in virtute divitiae sint?
+% 56.
+Gaia vult libellos impudicos quos serva Marci scripsit legere.
+% 57.
+Memento documenti patientiae nostrae.
+% 58.
+Non obliviscar sermones tuos.
+% 59.
+Consulatum magna cum cura petit.
+% 60.
+Thessaliam ex negotio petebam.
+% 61.
+Italiam peto videndae urbis in montibus positae.
+% 62.
+Rex uitam beatam in natura quaerebat.
+% 63.
+Me te secutum fuisse crediderunt.
+% 64.
+Amicis meis timeo.
+% 65.
+Timeo ne ad urbem capiendam veniant.
+% 66.
+Cicerone magistro usi sunt multi magistri.
+% 67.
+Parsimonia est ars uitandi sumptus supervacuos.
+% 68.
+Matrem eius vocavit et non venit.
+% 69.
+Libellos Marci habet rex impudicos.
+% 70.
+Libellos impudicos habet regina documenta ingenii humani.
+% 71.
+Catilina nihil pensi neque sancti habere dicitur.
+% 72.
+Crede hoc mihi.
+% 73.
+Ciceronem oratorem optimum credunt.
+% 74.
+Ciceronem oratorem optimum esse credunt.
+% 75.
+Cicero epistulas optimas scripsisse existimabatur.
+% 76.
+Iudico te optimum praetorem esse.
+% 77.
+Negat se libellos impudicos scribere.
+% 78.
+Nuntiatum est amicos nostros vinum amare.
+% 79.
+Omnes hostes rogaturos esse auxilium ratus est.
+% 80.
+Caesar se Germanos vicisse sciebat.
+% 81.
+Victoria uti nescis.
+% 82.
+Cicero litteras longas scribere traditur.
+% 83.
+Ne hostis vincat vereor.
+% 84.
+Epistulas tuas legere uolo.
+% 85.
+Nolite Lugdunum ire.
+% 86.
+Fit ut omnes me libellos impudicos legere sciant.
+% 87.
+Fiat lux.
+% 88.
+Facta est lux.
+% 89.
+Pecunia magna documentum avaritiae est.
+% 90.
+Malum est insanire.
+% 91 adapted from Cicero Epistulae ad Familiares 9 14 1 1.
+Non dubito quin tu meis praeceptis et consiliis obtemperans praestantissimum te civem et singularem consulem praebeas.
+% 92.
+Eundum Romam erat Caesari.
+% 93.
+Omnium fortissimi sunt Belgae.
+% 94 Cicero, De Amicitia.
+Suis autem incommodis graviter angi non amicum sed se ipsum amantis est.
+% 95 Caesar, De Bello Gallico.
+Cupiditate regni adductus nouis rebus studebat.
+% 96.
+Lego librum tuum in horto, ubi amica mea longas litteras ad ancillam tuam scribit.
+% 97.
+Caesar cognoverat virtutem legati sui et sciebat eum Germanos esse victurum.
+% 98.
+Romani putant reginam credere se a Venere amatum iri.
+% 99 Terentius.
+Humani nihil a me alienum puto.
+% 100 Adapted from Tacitus, Agricola, II.
+Memoriam ipsam perdidissemus, si tam facile esset oblivisci quam tacere.
+stop.
+
